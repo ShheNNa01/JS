@@ -1,0 +1,74 @@
+/* Estilo para los select */
+select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Estilo para el botón de submit */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Contenedor del formulario */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos responsivos */
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+.return-home-button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto; /* Centra el botón horizontalmente */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif; /* Cambia la fuente del texto */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+  }
+  
+  .return-home-button:hover {
+    background-color: #333;
+  }
+  
+  .return-home-button a {
+    color: white;
+    text-decoration: none; /* Elimina la subrayado del texto */
+  }
